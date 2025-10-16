@@ -15,15 +15,15 @@ A complex Unity ECS system for navigation and attack behaviors.
 - Due to it not being a standalone you will miss a lot of reference.
 - Remove the unused ones.
 
-###Enemy
+### Enemy
 - EnemyAttack-, EnemyMovement-,EnemyHealthAuthoring, EnemySetup, EnemyNavMeshBridge on the enemy prefab.
 - Physics body, Physics Shape, Nav Mesh Agent (turned off) on the enemy prefab.
 
-###In scene Managers
+### In scene Managers
 - EnemySpawnerBridge
 - EnemyDamageTextDisplay
 
-###Baking and Subscene
+### Baking and Subscene
 - Arena with colliders
 - Subscene copy of the arena with physics shape and body (static)
 - You can turn off mesh renderer for the subscene copy
